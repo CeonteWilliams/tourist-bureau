@@ -10,18 +10,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-        <script defer src ="data/ActivitiesPage/activities.js"></script>
+
+        <link rel="stylesheet" href="/css/activities.css">
+        <script defer src="data/ActivitiesPage/activities.js"></script>
         <script defer src="/scripts/activities.js"></script>
-        
+
 </head>
 
 <body>
-    <header></header>
+    <header>Activities page</header>
 
     <main>
-        <select name="category" id="category"></select>
-        <select name="activity" id="activity"></select>
-        <div id="selected-activity"></div>
+         <div>
+             <select id="category" name="category"  class="form-select"></select>
+             <select id="activity" name="category"  class="form-select"></select>
+             <div id="selected-activity"></div>
+         </div>
     </main>
 
 </body>
